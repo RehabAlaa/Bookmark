@@ -73,7 +73,7 @@ function validationSiteName() {
       return true;
     } else {
       validName.innerHTML =
-        " invalid site Name [ starts with only one uppercase letter and other letters are lowercase ]";
+        " invalid site Name [ starts with only one uppercase letter and other letters are lowercase without any spaces]";
       return false;
     }
   }
