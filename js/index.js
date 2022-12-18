@@ -72,7 +72,8 @@ function validationSiteName() {
       validName.innerHTML = "";
       return true;
     } else {
-      validName.innerHTML = " invalid site Name";
+      validName.innerHTML =
+        " invalid site Name [ starts with only one uppercase letter and other letters are lowercase ]";
       return false;
     }
   }
@@ -91,7 +92,8 @@ function validationSiteUrl() {
       validUrl.innerHTML = "";
       return true;
     } else {
-      validUrl.innerHTML = " invalid site url";
+      validUrl.innerHTML =
+        " invalid site url make it as http://www.example.com";
       return false;
     }
   }
